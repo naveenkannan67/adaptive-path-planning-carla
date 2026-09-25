@@ -78,3 +78,4 @@ python adaptive_path_planning_carla.py --town Town03 --pedestrians 25 --traffic 
   `--town` (some small maps don't have enough spawn-point spread).
 - **pygame window is black / crashes** → run with `--no-hud`, especially
   over remote desktop or SSH without a display.
+"# adaptive-path-planning-carla" 
