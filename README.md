@@ -1,3 +1,4 @@
+
 # Adaptive Path Planning and Collision Avoidance — CARLA (SIH26037)
 
 Adaptive global A* planning + potential-field local collision avoidance
@@ -77,5 +78,4 @@ python adaptive_path_planning_carla.py --town Town03 --pedestrians 25 --traffic 
 - **No route found between spawn point and goal** → try a different
   `--town` (some small maps don't have enough spawn-point spread).
 - **pygame window is black / crashes** → run with `--no-hud`, especially
-  over remote desktop or SSH without a display.
-"# adaptive-path-planning-carla" 
+  over remote desktop or SSH without a display. 
